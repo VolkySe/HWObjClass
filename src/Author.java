@@ -10,8 +10,13 @@ public class Author {
     public String getFirstName() {
         return this.firstName;
     }
+
     public String getLastName() {
         return this.lastName;
+    }
+
+    public String getAuthor() {
+        return this.firstName + " " + this.lastName;
     }
 
 }
