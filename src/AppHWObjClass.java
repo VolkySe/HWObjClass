@@ -10,5 +10,9 @@ public class AppHWObjClass {
         System.out.println("author2.getAuthor() = " + author2.getAuthor());
         System.out.println("book2.getTitle() = " + book2.getTitle());
         System.out.println("book2.getYearPublication() = " + book2.getYearPublication());
+        book2.setYearPublication(2022);
+        System.out.println("author2.getAuthor() = " + author2.getAuthor());
+        System.out.println("book2.getTitle() = " + book2.getTitle());
+        System.out.println("book2.getYearPublication() = " + book2.getYearPublication());
     }
 }
