@@ -5,11 +5,19 @@ public class AppHWObjClass {
         Author author2 = new Author("Robert", "Martin");
         Book book2 = new Book("Clean Code. A Handbook of Agile Software Craftsmanship", author2, 2018);
         book2.setYearPublication(2022);
-        System.out.println("author1.getAuthor() = " + author1.getAuthor());
-        System.out.println("book1.getTitle() = " + book1.getTitle());
-        System.out.println("book1.getYearPublication() = " + book1.getYearPublication());
-        System.out.println("author2.getAuthor() = " + author2.getAuthor());
-        System.out.println("book2.getTitle() = " + book2.getTitle());
-        System.out.println("book2.getYearPublication() = " + book2.getYearPublication());
+
+        System.out.println("book1.toString() = " + book1);
+        System.out.println("book2.toString() = " + book2);
+        if (book1.equals(book2)) {
+            System.out.println("Книги одинаковые");
+        } else {
+            System.out.println("Книги разные");
+        }
+        if (author1.equals(author2)) {
+            System.out.println("Автор один и тот же");
+        } else {
+            System.out.println("Авторы разные");
+        }
+
     }
 }
